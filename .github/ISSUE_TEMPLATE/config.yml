@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: License, purchase or private support
+    url: mailto:support@renamable.app
+    about: Please keep license keys, receipts and personal files out of public issues.
+  - name: Find your license key or free a Mac
+    url: https://polar.sh/renamable/portal
+    about: Sign in with the email address you bought with.

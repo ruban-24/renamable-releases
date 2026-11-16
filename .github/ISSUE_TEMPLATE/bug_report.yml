@@ -1,0 +1,52 @@
+name: Report a bug
+description: Something isn't working the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Renamable better. Please search existing issues first.
+        This report is public. Don't include license keys, receipts, personal files or anything private. For private help, email support@renamable.app.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: conversion
+    attributes:
+      label: Which file types?
+      description: For example .heic to .jpg. Leave empty if it isn't about a conversion.
+    validations:
+      required: false
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we make it happen again?
+      description: List the steps. If it only happened once, say so.
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Renamable version
+      description: In Finder, open Applications, select Renamable and choose File ▸ Get Info.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Apple menu ▸ About This Mac.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots or a screen recording help. Hide anything personal first. Please don't attach private files.
+    validations:
+      required: false

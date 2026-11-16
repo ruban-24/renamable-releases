@@ -1,0 +1,30 @@
+name: Request a format
+description: A conversion you'd like Renamable to do.
+title: "[Format]: "
+labels: ["format request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [full list of formats](https://renamable.app/formats/) and existing issues first. If someone already asked, add a 👍 there instead.
+  - type: input
+    id: from
+    attributes:
+      label: From
+      description: The file type you have, for example .heic
+    validations:
+      required: true
+  - type: input
+    id: to
+    attributes:
+      label: To
+      description: The file type you want, for example .jpg
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What do you use it for?
+      description: A sentence or two helps us decide what to add first.
+    validations:
+      required: false
