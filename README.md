@@ -1,5 +1,9 @@
 <p align="center">
-  <a href="https://renamable.app"><img src="assets/hero.jpg" alt="Renamable. Convert files by renaming them. Right in Finder. Nothing is uploaded." width="1200"></a>
+  <a href="https://renamable.app"><img src="assets/banner.png" alt="Renamable. Convert files on your Mac by renaming them in Finder." width="1200"></a>
+</p>
+
+<p align="center">
+  <img src="assets/rename.gif" alt="In Finder, holiday.heic is renamed to holiday.jpg. Renamable's message drops from the notch: converted, HEIC to JPEG, with Undo and Show." width="820">
 </p>
 
 <p align="center">
@@ -14,10 +18,6 @@ Renamable converts a file when you change its extension in Finder. Rename `holid
 This is the public home for **downloads, bug reports and ideas**. The app is closed source.
 
 ## Rename it. That's it.
-
-<p align="center">
-  <img src="assets/island.png" alt="Renamable's message at the top of the screen after converting holiday.heic to holiday.jpg, with Undo and Show buttons." width="720">
-</p>
 
 1. Click a file's name in Finder and change the ending, like `.docx` to `.pdf`.
 2. Renamable converts it right there. A small message at the top of the screen says it's done.
@@ -36,9 +36,6 @@ Photos, documents, spreadsheets, slides, audio, video, archives, subtitles and d
 - **Only the folders you choose.** Desktop, Documents and Downloads to start, plus any folder you add.
 - **Hidden files are left alone.** Renamable only acts on renames you make in Finder.
 
-<p align="center">
-  <img src="assets/activity.png" alt="Renamable's Activity window, showing holiday.jpg converted from holiday.heic." width="720">
-</p>
 
 ## Price
 
